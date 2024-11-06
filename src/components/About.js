@@ -1,4 +1,7 @@
+
+// components/About.js
 import React from "react";
+import { image } from "../data/user"; // Import the image variable
 
 function About() {
   return (
@@ -9,3 +12,5 @@ function About() {
     </div>
   );
 }
+
+export default About;
